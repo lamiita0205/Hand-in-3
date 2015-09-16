@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Handin3</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="compass">Compass</string>
+    <string name="lightSaber">Light Saber</string>
+    <string name="radioationCounter">Geiger-Muller Counter</string>
+    <string name="lifeCycleTable">Life cycle table</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="danPlusID">Dan Iorga - 224277</string>
+    <string name="dan">Dan Iorga</string>
+    <string name="danID">- 224277 -</string>
+    <string name="lamPlusID">Lamiita Traista - 220394</string>
+    <string name="lam">Lamiita Traista</string>
+    <string name="LamID">- 220394 -</string>
+    <string name="title_activity_compass">OptionsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lam.handin3.Compass"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"/>
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="0dp"
+        android:background="@drawable/compass1"
+        android:id="@+id/compass"
+        android:layout_gravity="center"
+        android:layout_weight="3.5"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TableRow>
+            <View
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_weight="2">
+            </View>
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="70dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_button"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_weight="2">
+            </View>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
